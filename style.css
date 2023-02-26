@@ -48,8 +48,12 @@ table {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* header section */
 header {
     display: flex;
     justify-content: center;
@@ -58,4 +62,26 @@ header {
     font-weight: bold;
     font-size: 3rem;
     color: white;
+}
+
+/* main section */
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.menu-bar {
+    width: 15vw;
+    background-color: #545A5C;
+    flex: 1;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    margin-top: auto;
 }
