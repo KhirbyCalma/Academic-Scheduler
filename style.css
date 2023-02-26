@@ -46,3 +46,16 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #313638;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
