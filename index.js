@@ -30,4 +30,3 @@ let dayName = dayNames[todayDate.getDay()];
 
 const currentDate = document.getElementById('currentDate');
 currentDate.textContent = `${dayName} | ${month} ${day}, ${year}`;
-
