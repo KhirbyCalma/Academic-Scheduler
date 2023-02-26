@@ -67,14 +67,17 @@ header {
 /* main section */
 main{
     display: flex;
-    flex-direction: column;
     flex: 1;
 }
 
 .menu-bar {
-    width: 15vw;
+    width: 15%;
     background-color: #545A5C;
-    flex: 1;
+}
+
+.main-section {
+    width: 85%;
+    background-color: #7B8083;
 }
 
 /* footer section */
